@@ -40,10 +40,8 @@ public class Ejecutor {
 
         for (int i = 0; i < pasajes.size(); i++) {
             
-            pasajes.get(i).establecerValorPasaje();
-            
-        }
-        
+            pasajes.get(i).establecerValorPasaje();          
+        }        
         for (int i = 0; i < pasajes.size(); i++) {
             
             System.out.printf("%s\n",
